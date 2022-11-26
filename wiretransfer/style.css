@@ -1,0 +1,69 @@
+/* Imported Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+/*  // HTML STYLES // */
+body {
+    margin: 0;
+    background-color: #E5E7E9;
+    font-size: 1rem;
+    font-family: Roboto;
+}
+
+p {
+    margin: 0;
+}
+
+input {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 1rem;
+box-sizing: border-box;
+resize: vertical;
+background-color: transparent;
+}
+
+/* /// CUSTOM STYLES /// */
+/* Background Colors */
+
+.bg-color {
+    background-color: white;
+}
+
+/* // Titles //*/
+
+.title1 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.title2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.title3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Button Properties */
+
+.btn-submit {
+    padding: 1rem 6rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-image: linear-gradient(to bottom, #3498DB, #2980B9);
+}
+
+.blue {
+    color: #4285F4;
+}
